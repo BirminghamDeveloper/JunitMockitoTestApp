@@ -33,16 +33,4 @@ class ListUtilsTest(
 
         assertEquals(expected, actual)
     }
-
-    @Test
-    fun test_determineCardColorNotDone(){
-        val actual = determineCardColor(dueDate, done)
-        assertEquals(expected, actual)
-    }
-
-    @Test
-    fun test_determineCardColorOverDue(){
-        val actual = determineCardColor(dueDate, done)
-        assertEquals(expected, actual)
-    }
 }
