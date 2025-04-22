@@ -29,10 +29,6 @@ class ListUtilsTest(
 
     @Test
     fun test_determinCardColor(){
-        val expected = R.color.todoDone
-        val dueDate = null
-        val done = true
-
         val actual = determineCardColor(dueDate, done)
 
         assertEquals(expected, actual)
@@ -40,20 +36,12 @@ class ListUtilsTest(
 
     @Test
     fun test_determineCardColorNotDone(){
-        val expected = R.color.todoNotDue
-        val dueDate = null
-        val done = false
-
         val actual = determineCardColor(dueDate, done)
         assertEquals(expected, actual)
     }
 
     @Test
     fun test_determineCardColorOverDue(){
-        val expected = R.color.todoOverDue
-        val dueDate = now - day
-        val done = false
-
         val actual = determineCardColor(dueDate, done)
         assertEquals(expected, actual)
     }
