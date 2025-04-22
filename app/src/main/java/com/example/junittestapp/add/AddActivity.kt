@@ -1,11 +1,11 @@
-package com.psdemo.todo.add
+package com.example.junittestapp.add
 
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.example.junittestapp.databinding.ActivityAddBinding
 import com.google.android.material.snackbar.Snackbar
-import com.psdemo.todo.obtainViewModel
+import com.example.junittestapp.obtainViewModel
 import java.util.*
 
 class AddActivity : AppCompatActivity() {

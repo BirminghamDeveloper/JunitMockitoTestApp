@@ -1,9 +1,9 @@
-package com.psdemo.todo
+package com.example.junittestapp
 
 import android.app.Application
-import com.psdemo.todo.data.TodoRepository
-import com.psdemo.todo.data.TodoRoomDatabase
-import com.psdemo.todo.data.TodoRoomRepository
+import com.example.junittestapp.data.TodoRepository
+import com.example.junittestapp.data.TodoRoomDatabase
+import com.example.junittestapp.data.TodoRoomRepository
 
 class TodoApplication : Application() {
 

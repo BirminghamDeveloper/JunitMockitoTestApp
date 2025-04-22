@@ -1,7 +1,6 @@
-package com.psdemo.todo.data
+package com.example.junittestapp.data
 
 import androidx.lifecycle.LiveData
-import com.psdemo.todo.data.Todo
 
 interface TodoRepository {
 

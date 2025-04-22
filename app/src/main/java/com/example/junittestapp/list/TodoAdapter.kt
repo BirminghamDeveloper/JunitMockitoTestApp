@@ -1,4 +1,4 @@
-package com.psdemo.todo.list
+package com.example.junittestapp.list
 
 import android.text.format.DateFormat
 import android.view.LayoutInflater
@@ -9,7 +9,7 @@ import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.junittestapp.R
-import com.psdemo.todo.data.Todo
+import com.example.junittestapp.data.Todo
 import java.util.*
 import kotlin.collections.ArrayList
 

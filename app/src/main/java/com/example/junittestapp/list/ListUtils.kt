@@ -1,4 +1,4 @@
-package com.psdemo.todo.list
+package com.example.junittestapp.list
 
 import com.example.junittestapp.R
 

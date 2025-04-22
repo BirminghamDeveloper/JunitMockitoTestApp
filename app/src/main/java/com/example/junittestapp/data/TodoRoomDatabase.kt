@@ -1,4 +1,4 @@
-package com.psdemo.todo.data
+package com.example.junittestapp.data
 
 import android.content.Context
 import androidx.room.Database

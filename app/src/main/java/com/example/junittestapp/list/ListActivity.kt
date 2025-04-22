@@ -1,12 +1,12 @@
-package com.psdemo.todo.list
+package com.example.junittestapp.list
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.junittestapp.databinding.ActivityMainBinding
-import com.psdemo.todo.add.AddActivity
-import com.psdemo.todo.obtainViewModel
+import com.example.junittestapp.add.AddActivity
+import com.example.junittestapp.obtainViewModel
 
 class ListActivity : AppCompatActivity(), TodoAdapter.OnClickListener {
 

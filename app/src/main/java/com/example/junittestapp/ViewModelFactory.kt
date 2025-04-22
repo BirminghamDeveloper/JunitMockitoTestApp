@@ -1,10 +1,10 @@
-package com.psdemo.todo
+package com.example.junittestapp
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.psdemo.todo.add.AddViewModel
-import com.psdemo.todo.data.TodoRepository
-import com.psdemo.todo.list.ListViewModel
+import com.example.junittestapp.add.AddViewModel
+import com.example.junittestapp.data.TodoRepository
+import com.example.junittestapp.list.ListViewModel
 
 @Suppress("UNCHECKED_CAST")
 class ViewModelFactory constructor(private val todoRepository: TodoRepository) :

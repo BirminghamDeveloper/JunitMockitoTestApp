@@ -1,4 +1,4 @@
-package com.psdemo.todo
+package com.example.junittestapp
 
 import android.app.Activity
 import androidx.lifecycle.ViewModel

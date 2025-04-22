@@ -1,9 +1,9 @@
-package com.psdemo.todo.list
+package com.example.junittestapp.list
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
-import com.psdemo.todo.data.Todo
-import com.psdemo.todo.data.TodoRepository
+import com.example.junittestapp.data.Todo
+import com.example.junittestapp.data.TodoRepository
 
 class ListViewModel(
     private val todoRepository: TodoRepository
